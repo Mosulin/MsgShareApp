@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
             // Code
             Log.i("MainActivity", "Button was clicked !")
 
-            // Toast Make Text
+            // Toast Make Text and LENGTH SHOT
             Toast.makeText(this, "Button was clicked !", Toast.LENGTH_SHORT).show()
 
         }
