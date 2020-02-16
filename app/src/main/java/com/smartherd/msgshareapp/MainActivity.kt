@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             val message: String = etUserMessage.text.toString()
             Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
 
+            // Open SecondActivity
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
         }
